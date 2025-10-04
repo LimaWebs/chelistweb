@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Medidas de Segurança no Windows</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Medidas de Segurança no Windows</h1>
+            <p>Confira e marque as medidas de segurança que você já tomou para proteger seu computador.</p>
+        </header>
+        <section class="checklist">
+            <form id="checklist-form">
+                <div class="item">
+                    <input type="checkbox" id="antivirus" />
+                    <label for="antivirus">Ativar e manter o antivírus atualizado</label>
+                </div>
+                <div class="item">
+                    <input type="checkbox" id="firewall" />
+                    <label for="firewall">Habilitar o firewall do Windows</label>
+                </div>
+                <div class="item">
+                    <input type="checkbox" id="senha" />
+                    <label for="senha">Usar senhas fortes e únicas</label>
+                </div>
+                <div class="item">
+                    <input type="checkbox" id="windowsupdate" />
+                    <label for="windowsupdate">Manter o Windows Update ativado</label>
+                </div>
+                <div class="item">
+                    <input type="checkbox" id="backup" />
+                    <label for="backup">Realizar backups regulares dos arquivos importantes</label>
+                </div>
+                <div class="item">
+                    <input type="checkbox" id="autenticacao" />
+                    <label for="autenticacao">Ativar autenticação de dois fatores sempre que possível</label>
+                </div>
+                <button type="submit">Enviar Medidas Completadas</button>
+            </form>
+
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="progress-bar">
+                    <span id="progress-text"></span>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
